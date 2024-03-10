@@ -21,3 +21,6 @@ vim.keymap.set("n", "<C-a>", 'mzggVG"+y`zzz') -- For copying the whole file
 
 vim.keymap.set("n", "<leader>n", "<cmd>Telescope notify<cr>")
 vim.keymap.set("v", "<C-/>", "gc")
+
+vim.keymap.set("n", "<leader>gr", "<cmd>Telescope lsp_references<cr>")
+vim.keymap.set("n", "J", "mzJ`z")
