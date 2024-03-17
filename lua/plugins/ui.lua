@@ -1,7 +1,7 @@
 return {
   {
     "echasnovski/mini.indentscope",
-    enabled = true,
+    enabled = false,
     opts = {
       draw = {
         delay = 0,
@@ -14,7 +14,7 @@ return {
   },
   {
     "lukas-reineke/indent-blankline.nvim",
-    enabled = true,
+    enabled = false,
   },
   {
     "rcarriga/nvim-notify",
@@ -22,5 +22,23 @@ return {
       render = "minimal",
       stages = "static",
     },
+  },
+  {
+    "folke/noice.nvim",
+    event = "VeryLazy",
+    opts = {
+      -- add any options here
+      lsp = {
+        hover = {
+          silent = true,
+        },
+      },
+    },
+  },
+  {
+    "Tummetott/reticle.nvim",
+    config = function()
+      require("reticle").setup({})
+    end,
   },
 }

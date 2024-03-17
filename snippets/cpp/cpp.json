@@ -546,7 +546,7 @@
     ]
   },
   "fenwick": {
-    "prefix": "fewnick-tree",
+    "prefix": "fenwick-tree",
     "body": [
       "template <class T>",
       "class BIT {",

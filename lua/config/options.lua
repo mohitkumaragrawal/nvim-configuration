@@ -4,3 +4,4 @@
 --
 
 vim.opt.clipboard = ""
+-- vim.opt.cursorline = false
