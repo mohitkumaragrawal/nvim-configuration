@@ -14,7 +14,7 @@ return {
   },
   {
     "lukas-reineke/indent-blankline.nvim",
-    enabled = false,
+    enabled = true,
   },
   {
     "rcarriga/nvim-notify",
@@ -35,10 +35,10 @@ return {
       },
     },
   },
-  {
-    "Tummetott/reticle.nvim",
-    config = function()
-      require("reticle").setup({})
-    end,
-  },
+  -- {
+  --   "Tummetott/reticle.nvim",
+  --   config = function()
+  --     require("reticle").setup({})
+  --   end,
+  -- },
 }

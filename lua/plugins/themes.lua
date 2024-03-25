@@ -25,17 +25,17 @@ return {
 
         styles = {
           bold = true,
-          italic = true,
+          italic = false,
           transparency = true,
         },
       })
 
-      function ColorMyPencils(color)
-        color = color or "rose-pine"
-        vim.cmd.colorscheme(color)
-      end
-
-      ColorMyPencils()
+      -- function ColorMyPencils(color)
+      --   color = color or "rose-pine"
+      --   vim.cmd.colorscheme(color)
+      -- end
+      --
+      -- ColorMyPencils()
     end,
   },
   {
