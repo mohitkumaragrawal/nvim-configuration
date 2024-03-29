@@ -5,3 +5,5 @@
 
 vim.opt.clipboard = ""
 -- vim.opt.cursorline = false
+
+vim.opt.list = false
