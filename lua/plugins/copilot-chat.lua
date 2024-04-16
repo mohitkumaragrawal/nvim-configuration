@@ -1,5 +1,3 @@
-local IS_DEV = false
-
 local prompts = {
   -- Code related prompts
   Explain = "Please explain how the following code works.",
@@ -21,7 +19,6 @@ local prompts = {
 
 return {
   {
-    dir = IS_DEV and "~/Projects/research/CopilotChat.nvim" or nil,
     "CopilotC-Nvim/CopilotChat.nvim",
     version = "v2.4.4",
     -- branch = "canary", -- Use the canary branch if you want to test the latest features but it might be unstable
