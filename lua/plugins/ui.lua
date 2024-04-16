@@ -53,6 +53,24 @@ return {
     enabled = false,
   },
 
+  {
+    "rolv-apneseth/tfm.nvim",
+    config = function()
+      -- Set keymap so you can open the default terminal file manager (yazi)
+      vim.api.nvim_set_keymap("n", "<leader><leader>", "", {
+        noremap = true,
+        callback = require("tfm").open,
+      })
+    end,
+  },
+
+  {
+    "nvim-telescope/telescope.nvim",
+    keys = {
+      { "<leader><leader>", false },
+    },
+  },
+
   -- {
   --   "Tummetott/reticle.nvim",
   --   config = function()
